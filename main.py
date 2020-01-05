@@ -36,6 +36,11 @@ cm= confusion_matrix(target_test, target_pred)
 df = pd.DataFrame(cm, columns=labels, index=labels)
 print(df)
 
+df.loc['Precision %',:]= df.sum(axis=0)
+df.loc[:,'Recall %'] = df.sum(axis=1)
+for label in labels:
+    df.at["Precision %",label] = df.at[label,label] / df.at["Precision %",label] * 100
+    df.at[label, "Recall %"] = df.at[label, label] / df.at[label, "Recall %"] * 100
 # View model accuracy
 # Defined as (1.0 - (# wrong predictions / # total observations))
 print('Accuracy: %.2f' % accuracy_score(target_test, target_pred))
