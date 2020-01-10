@@ -1,3 +1,7 @@
+#
+#  Lapo Bartolacci
+#
+
 from sklearn.linear_model import Perceptron
 from sklearn.metrics import accuracy_score, confusion_matrix
 import numpy as np
