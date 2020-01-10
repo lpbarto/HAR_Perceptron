@@ -8,7 +8,7 @@ Per riprodurre i risultati mostrati nella [relazione](RelazioneAI.pdf) è suffic
 
 ### Data Set
 
-Il data set utilizzato è disponibile [qui](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+Il data set utilizzato è disponibile [qui](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ### Fonti
 
