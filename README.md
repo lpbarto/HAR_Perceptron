@@ -4,7 +4,7 @@
 
 ### Riprodurre i risultati
 
-Per riprodurre i risultati mostrati è sufficiente scaricare la repository ed eseguire lo script python main.py
+Per riprodurre i risultati mostrati nella [relazione](RelazioneAI.pdf) è sufficiente scaricare la repository ed eseguire lo script python main.py
 
 ### Data Set
 
