@@ -1,6 +1,6 @@
 # Human Activity Recognition with Perceptron algorithm
 
-
+Implemento l'algoritmo Perceptron fornito da scikit-learn al problema del riconoscimento di attività umane.
 
 ### Riprodurre i risultati
 
